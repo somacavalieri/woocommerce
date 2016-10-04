@@ -344,7 +344,7 @@ class WC_Customer extends WC_Legacy_Customer {
 	 * @return array
 	 */
 	public function get_billing() {
-		return $this->_data['billing'];
+		return $this->data['billing'];
 	}
 
 	/**
@@ -352,7 +352,7 @@ class WC_Customer extends WC_Legacy_Customer {
 	 * @return array
 	 */
 	public function get_shipping() {
-		return $this->_data['shipping'];
+		return $this->data['shipping'];
 	}
 
 	/*
